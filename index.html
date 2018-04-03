@@ -61,15 +61,24 @@
 			color: white;
 		}
 
-		button {
+		#btn-download {
+			text-decoration: none;
 			background-color: white;
 			color: black;
-			margin-top: 30px;
 			height: 50px;
 			width: 200px;
 			border: none;
 			outline: none;
 			font-weight: 900;
+			padding: 15px;
+			transition: 1s;
+		}
+
+		#btn-download:hover {
+			text-decoration: none;
+			border: 1px solid white;
+			background-color: black;
+			color: white;
 		}
 
 		#desc {
@@ -108,7 +117,9 @@
 		    			<li>Black Theme</li>
 		    		</ul>
 		    	</div>
-		    	<button>DOWNLOAD NOW</button>
+
+		    	<br><br>
+		    	<a href="#" id="btn-download">DOWNLOAD NOW</a>
 		    </div>
 
 		    <div class="col-sm-6">
