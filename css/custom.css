@@ -3,6 +3,10 @@ body {
 	background-color: #000;
 }
 
+h1 {
+	font-size: 34px;
+}
+
 #logo {
 	height: 50px;
 	width: 50px;
@@ -83,4 +87,9 @@ nav li a {
     font-family: monospace;
     margin: 0px;
     margin-bottom: 10px;
+}
+
+.table-bordered {
+	max-width: 750px;
+	margin: 0 auto;
 }
