@@ -7,6 +7,10 @@ h1 {
 	font-size: 34px;
 }
 
+th {
+	background: #31708f;
+}
+
 #logo {
 	height: 50px;
 	width: 50px;
@@ -92,4 +96,8 @@ nav li a {
 .table-bordered {
 	max-width: 750px;
 	margin: 0 auto;
+}
+
+.license-info {
+	background: green;
 }
