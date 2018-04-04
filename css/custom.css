@@ -1,0 +1,75 @@
+body {
+	background: #000;
+}
+
+nav {
+	background-color: #fff;
+}
+
+nav ul {
+	height: 50px;
+	margin-right: 90px;
+}
+
+nav ul li {
+	list-style: none;
+    float: right;
+}
+
+nav li a {
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	font-family: monospace;
+	font-weight: 900;
+	font-size: 16px;
+	color: #000;
+	transition: 1s;
+}
+
+#logo {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 100px;
+	background: #000;
+}
+/*----------- End Header / Nav --------*/
+#col-img {
+	float: right;
+	margin-top: 30px;
+}
+
+.row {
+	margin-top: 70px;
+	color: white;
+}
+
+#btn-download {
+	text-decoration: none;
+	background-color: white;
+	color: black;
+	height: 50px;
+	width: 200px;
+	border: none;
+	outline: none;
+	font-weight: 900;
+	padding: 15px;
+	transition: 1s;
+}
+
+#btn-download:hover {
+	text-decoration: none;
+	border: 1px solid white;
+	background-color: black;
+	color: white;
+}
+
+#desc {
+	text-transform: uppercase;
+}
+
+#desc div, #desc ul {
+	font-size: 16px;
+	font-family: monospace;
+}
