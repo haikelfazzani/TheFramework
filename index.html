@@ -1,32 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/custom.css" media="all" />
 	<title>The Framework 1.0</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="icon" href="img/logo.ico">
+
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
+
 	<style type="text/css">
 		body {
-			/*background: url("img/banner-bg.jpg");*/
+			/*background-image: url("img/1.png");*/
+			background-color: #000;
+		}
+
+		#logo {
+			height: 50px;
+			width: 50px;
+			position: absolute;
+			left: 100px;
 			background: #000;
 		}
 
 		nav {
+			/*background-color: rgba(255,0,0,0.1);*/
 			background-color: #fff;
 		}
 
 		nav ul {
 			height: 50px;
-			margin-right: 85px;
+			margin-right: 100px;
 		}
 
 		nav ul li {
 			list-style: none;
-		    margin: 15px 30px 0 0px;
 		    float: right;
 		}
 
@@ -38,22 +53,14 @@
 			font-weight: 900;
 			font-size: 16px;
 			color: #000;
+			transition: 1s;
+			margin: 15px;
 		}
 
-		#logo {
-			height: 50px;
-			width: 50px;
-			position: absolute;
-    		left: 100px;
-    		background: #000;
-		}
-
+		/*----------- End Header / Nav --------*/
 		#col-img {
 			float: right;
 			margin-top: 30px;
-			/*-webkit-box-shadow: 0px 0px 51px 0px rgba(255,255,255,0.16);
-			-moz-box-shadow: 0px 0px 51px 0px rgba(255,255,255,0.16);
-			box-shadow: 0px 0px 51px 0px rgba(255,255,255,0.16);*/
 		}
 
 		.row {
@@ -91,13 +98,16 @@
 		}
 	</style>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/custom.js"></script>
+
 	<header>
 		<nav>
 			<img src="img/2311.png" id="logo">
 			<ul>
-				<li><a href="index.html">ABOUT US</a></li>
-				<li><a href="#">PRODUCTS</a></li>
-				<li><a href="#">HOME</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+				<li><a href="products.html">PRODUCTS</a></li>
+				<li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> HOME</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -119,18 +129,17 @@
 		    	</div>
 
 		    	<br><br>
-		    	<a href="#" id="btn-download">DOWNLOAD NOW</a>
+		    	<a href="#" id="btn-download"><i class="fa fa-download" aria-hidden="true"></i> DOWNLOAD NOW</a>
 		    </div>
-
-		    <div class="col-sm-6">
-		    	<img src="img/2.png" id="col-img">
-		    </div>
+s
+		    <div class="col-sm-6"><img src="img/col.png" id="col-img"></div>
 
 		  </div>
 		</div>
 	</section>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 </html>
