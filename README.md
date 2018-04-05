@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <div><a href="https://haikelfazzani.github.io/TheFramework/">
-      <i class="fa fa-align-center"></i> Website</a></div>
+    <h2><a href="https://haikelfazzani.github.io/TheFramework/">
+      <i class="fa fa-align-center"></i> Website</a></h2>
   </body>
 </html>
