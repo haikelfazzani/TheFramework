@@ -6,5 +6,9 @@
   <body>
     <h2><a href="https://haikelfazzani.github.io/TheFramework/">
       <i class="fa fa-align-center"></i> Website</a></h2>
+    <ul>
+      <li>FREE AUTOSHUTDOWN TIMER</li>
+      <li>Monokai Theme</li>
+    </ul>
   </body>
 </html>
