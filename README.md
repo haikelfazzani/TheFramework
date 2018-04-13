@@ -8,7 +8,7 @@
       <i class="fa fa-align-center"></i> Website</a></h2>
     <ul>
       <li>FREE AUTOSHUTDOWN TIMER</li>
-      <li>Monokai Theme</li>
+      <li>Monokai Theme For Netbeans 8.02</li>
     </ul>
   </body>
 </html>
